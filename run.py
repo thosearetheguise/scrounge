@@ -1,5 +1,7 @@
-from scrounge.files import FilesList
+from scrounge.scrounger import Scrounger
 
-files_list = FilesList("sample_files")
+scrounger = Scrounger("sample_files")
 
-files_list.show_file_list()
+scrounger.show_in_scope_files()
+
+scrounger.run_checks()

@@ -22,6 +22,3 @@ class FilesList:
                 if not is_binary(file_path):
                     self.file_list.append(file_path)
 
-    def show_file_list(self):
-        for file in self.file_list:
-            print(file)
